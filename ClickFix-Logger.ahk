@@ -94,3 +94,19 @@ return
 ~MButton::
 addLine("middle (down)")
 return
+
+~XButton1 up::
+addLine("back (up)")
+Return
+
+~XButton1::
+addLine("back (down)")
+Return
+
+~XButton2 Up::
+addLine("forward (up)")
+Return
+
+~XButton2::
+addLine("forward (down)")
+Return
