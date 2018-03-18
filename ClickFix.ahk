@@ -298,12 +298,11 @@ Sleep, 500  ; There seems to be an issue with the startup shortcut disappearing
 update_sww_state(settings["sww"][3])
 
 ; Use a hotkey to enable/disable the software functionality
-^+`::
+^+~::
 settings["dis"][3] := !settings["dis"][3]
 setTrayIcon()
 save()
 return
-
 
 
 ; Menu handlers - using labels to manipulate global variables
